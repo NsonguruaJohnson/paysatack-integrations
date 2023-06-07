@@ -55,6 +55,4 @@ class PaystackService
     {
         $this->privateKey = config('services.paystack.secret_key');
     }
-
-
 }

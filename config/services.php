@@ -35,4 +35,6 @@ return [
         'secret_key' => env('PAYSTACK_SECRET_KEY'),
     ],
 
+    'exchange-rates-driver' => env('EXCHANGE_RATES_DRIVER'),
+
 ];
